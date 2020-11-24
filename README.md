@@ -32,7 +32,10 @@ suggestion that the distinctions among the terms "first party" and
 
 # Existing related issues
 
-We will update this document with links to relevant issues.
+We will update this document with links to relevant issues.  Two general issues
+that have raised related points are:
+
+ * [Capabilities of the proposal for publishers · Issue #51 · WICG/turtledove](https://github.com/WICG/turtledove/issues/51)
 
  * [TurtleDove: Ambiguity in level of decision making. · Issue #73 · WICG/turtledove](https://github.com/WICG/turtledove/issues/73)
 
@@ -58,7 +61,7 @@ that are clearly not yet supported:
     1.  Ad quality/publisher-determined brand safety rules - there are many
         categories of content or specific advertising brands, categories of
         advertising brands, or specific ads that a given publisher would not
-        want to appear on their site.
+        want to appear on their site. (Related issue: [Capabilities of the proposal for publishers · Issue #51 · WICG/turtledove](https://github.com/WICG/turtledove/issues/51))
 
     2.  Malvertising - Some ads may contain (or link to) malware. If this
         isn\'t detected prior to a bundle being delivered to the browser,
@@ -100,7 +103,7 @@ that are clearly not yet supported:
         indirect sold ads, regardless of why the marketer wants to engage a
         particular end user (e.g., contextual or interest-based targeting)
         Example rules include only overriding a guaranteed placement if it
-        is over a target bid. The target amount may change over time.
+        is over a target bid. The target amount may change over time. Related issue: [Publisher ad network control over ad eligibility and auction ranking · Issue #70 · WICG/turtledove](https://github.com/WICG/turtledove/issues/70)
 
         1.  For example, the Google Ad Manager "dynamic allocation" feature (if
             a direct deal is pacing correctly, complete at original price, if
@@ -113,7 +116,7 @@ that are clearly not yet supported:
             publishers make to rule sets must be immediately applied by
             TURTLEDOVE auctions.
 
-3.  Publishers need to set floor rates based on several criteria.
+3.  Publishers need to set floor rates based on several criteria. (Related issue: [Capabilities of the proposal for publishers · Issue #51 · WICG/turtledove](https://github.com/WICG/turtledove/issues/51))
 
     1.  A publisher may not want an ad to serve at all, if it is below a
         minimum \"floor\" set for that page, section, or site.
@@ -143,7 +146,7 @@ that are clearly not yet supported:
     \"price\" of a given ad is assigned by the buyer, but that price may
     not be what the publisher gets paid. In this case the publisher
     needs to apply an adjustment for auction purposes. Adjustment must
-    be applied by the publisher in a 1st-party context.
+    be applied by the publisher in a 1st-party context. (Related issue: [Ad Pricing · Issue #14 · WICG/turtledove](https://github.com/WICG/turtledove/issues/14)) 
 
     1.  VAST errors: If a given ad is known to have VAST errors 20% of the
         time (e.g., does not serve) then it needs to have its bid price
